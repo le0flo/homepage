@@ -78,7 +78,7 @@ a {
 
 footer {
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
     
     display: flex;
     flex-direction: row;
@@ -103,7 +103,8 @@ footer > .links > * {
 
 .projects {
     width: 100vw;
-    height: 95vh;
+    min-height: 95vh;
+    height: fit-content;
 
     display: flex;
     flex-direction: column;
@@ -139,7 +140,8 @@ footer > .links > * {
 
 .list {
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
+    height: fit-content;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
